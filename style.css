@@ -1,0 +1,17 @@
+#front {
+    text-align: center;
+    font-size: 40px;
+    color: rgb(80, 35, 17);
+}
+
+.front-img {
+    width: 1200px;
+    height: auto;
+}
+
+body {
+    font-family: monospace, sans-serif;
+    font-size: 15px;
+}
+
+
