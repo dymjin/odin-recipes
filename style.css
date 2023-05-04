@@ -6,12 +6,28 @@
 
 .front-img {
     width: 800px;
-    height: auto;
 }
 
 body {
     font-family: monospace, sans-serif;
     font-size: 15px;
+}
+
+.fried-chicken {
+    width: 800px;
+}
+
+.baked-chicken , 
+.moroccan-chicken {
+    width: 750px;
+}
+
+.king-ranch {
+    width: 384px;
+}
+
+img {
+    height: auto;
 }
 
 
