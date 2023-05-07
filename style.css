@@ -19,7 +19,7 @@ body {
     width: 800px;
 }
 
-.baked-chicken , 
+.baked-chicken,
 .moroccan-chicken {
     width: 750px;
 }
@@ -32,4 +32,7 @@ img {
     height: auto;
 }
 
-
+div {
+    border: 3px solid black;
+    padding: 5px;
+}
