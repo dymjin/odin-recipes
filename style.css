@@ -11,6 +11,8 @@
 body {
     font-family: monospace, sans-serif;
     font-size: 15px;
+    width: 800px;
+    margin: 0 auto;
 }
 
 .fried-chicken {
