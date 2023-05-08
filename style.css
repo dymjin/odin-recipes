@@ -1,7 +1,7 @@
 #front {
     text-align: center;
     font-size: 40px;
-    color: rgb(80, 35, 17);
+    color: rgba(80, 35, 17);
 }
 
 .front-img {
@@ -11,7 +11,7 @@
 body {
     font-family: monospace, sans-serif;
     font-size: 15px;
-    width: 800px;
+    max-width: 750px;
     margin: 0 auto;
 }
 
@@ -31,3 +31,4 @@ body {
 img {
     height: auto;
 }
+
