@@ -1,5 +1,5 @@
 html {
-    background-color: gold;
+    background-color: rgb(51, 20, 20);
 }
 
 body {
@@ -10,7 +10,7 @@ body {
 #front {
     text-align: center;
     font-size: 40px;
-    color: rgba(80, 35, 17);
+    color: rgb(80, 35, 17);
 }
 
 .front-img {
@@ -19,7 +19,6 @@ body {
 
 div.img-container>.fried-chicken {
     width: 800px;
-    
 }
 
 .baked-chicken,
@@ -33,7 +32,7 @@ div.img-container>.fried-chicken {
 
 img {
     height: auto;
-    border: 5px double rgb(105, 45, 10);
+    border: 5px double rgb(146, 118, 92);
 }
 
 * {
@@ -41,11 +40,11 @@ img {
 }
 
 .links-container {
-    border: 3px solid rgb(9, 75, 161);
+    border: 3px solid rgb(146, 118, 92);
     width: 400px;
     margin: 8px auto 0 auto;
     display: flex;
-    background-color: rgb(45, 213, 255);
+    background-color: rgb(233, 220, 180);
 }
 
 .return-main,
@@ -57,8 +56,8 @@ img {
 
 
 .recipe-container {
-    border: 3px dotted brown;
-    background-color: orange;
+    border: 8px double rgb(146, 118, 92);
+    background-color: rgb(233, 220, 180);
     padding: 8px 200px;
     margin: 30px;
     width: 900px;
