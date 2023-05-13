@@ -1,5 +1,6 @@
 html {
     background-color: rgb(51, 20, 20);
+    box-sizing: border-box;
 }
 
 body {
@@ -7,17 +8,18 @@ body {
     font-size: 15px;
 }
 
-#front {
+.front {
     text-align: center;
     font-size: 40px;
     color: rgb(80, 35, 17);
 }
 
-.front-img {
-    width: 800px;
+.img-container {
+    display: flex;
+    justify-content: center;
 }
 
-div.img-container>.fried-chicken {
+div>img {
     width: 800px;
 }
 
@@ -32,11 +34,6 @@ div.img-container>.fried-chicken {
 
 img {
     height: auto;
-    border: 5px double rgb(146, 118, 92);
-}
-
-* {
-    box-sizing: border-box;
 }
 
 .links-container {
@@ -50,8 +47,18 @@ img {
 .return-main,
 .back-top {
     flex: 1;
-    margin: 8px;
+    padding: 8px;
     text-align: center;
+}
+
+.links-container.main {
+    width: 200px;
+}
+
+.back-top-front {
+    text-align: center;
+    padding: 8px;
+    margin: 0 auto;
 }
 
 
@@ -59,7 +66,10 @@ img {
     border: 8px double rgb(146, 118, 92);
     background-color: rgb(233, 220, 180);
     padding: 8px 200px;
-    margin: 30px;
     width: 900px;
     margin: 0 auto;
+}
+
+#header {
+    text-align: center;
 }
