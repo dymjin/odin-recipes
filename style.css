@@ -23,11 +23,6 @@ div>img {
     width: 800px;
 }
 
-.baked-chicken,
-.moroccan-chicken {
-    width: 750px;
-}
-
 .king-ranch {
     width: 384px;
 }
@@ -61,12 +56,11 @@ img {
     margin: 0 auto;
 }
 
-
 .recipe-container {
     border: 8px double rgb(146, 118, 92);
     background-color: rgb(233, 220, 180);
-    padding: 8px 200px;
-    width: 900px;
+    padding: 8px 100px;
+    width: 800px;
     margin: 0 auto;
 }
 
