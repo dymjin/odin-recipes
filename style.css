@@ -70,3 +70,14 @@ img {
     flex-direction: column;
     gap: 8px;
 }
+
+a {
+    text-decoration: none;
+    color: rgb(51, 20, 20);
+}
+
+.recipe-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
