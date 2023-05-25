@@ -13,10 +13,6 @@ body {
 
 #front-title {
     font-size: 50px;
-    font-weight: 900;
-    color: rgb(51, 20, 20);
-    margin: 0;
-    padding: 0;
 }
 
 div>img {
@@ -58,10 +54,9 @@ img {
     border: 8px double rgb(146, 118, 92);
     background-color: rgb(233, 220, 180);
     color: rgb(51, 20, 20);
-    padding: 50px;
+    padding: 50px 70px;
     align-items: center;
-    gap: 32px;
-
+    gap: 50px;
 }
 
 .recipe-container>.recipe {
@@ -86,28 +81,45 @@ a {
     padding: 0;
     display: flex;
     gap: 16px;
-    width: 950px;
     flex-wrap: wrap;
-
-}
-
-.recipe-list>li {
-    width: 300px;
-    height: 300px;
-    text-align: center;
-    border: 3px solid black;
+    justify-content: center;
 }
 
 .recipe-list-container {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 778px;
+    padding: 12px;
+    border: 5px double rgb(146, 118, 92);
+}
+
+.recipe-list>li {
+    width: 300px;
+    /* height: 300px; */
+    /* border: 3px solid black; */
+    text-align: center;
+    padding: 8px;
 }
 
 .recipe-list>li>img {
-    height: 120px;
+    height: 160px;
     width: auto;
+    margin-top: 10px;
+    border: 3px rgb(146, 118, 92);
+    border-style: outset;
 }
 
-#recipe-list-title {
-    text-align: center;
+.recipe-list-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.title {
+    font-size: 40px;
+    font-weight: 900;
+    color: rgb(51, 20, 20);
+    margin: 0;
+    padding: 0;
 }
