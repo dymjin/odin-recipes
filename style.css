@@ -102,7 +102,7 @@ a {
     padding: 8px;
 }
 
-.recipe-list>li>img {
+.recipe-list>li>a>img {
     height: 160px;
     width: auto;
     margin-top: 10px;
